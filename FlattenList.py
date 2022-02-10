@@ -16,7 +16,7 @@ output: [1, 'a', 'cat', 2, 3, 'dog', 4, 5]
 
 
 def flatten_it(flat_it):
-    for lngt, i in enumerate(flat_it):
+    for i in flat_it:
         if type(i) == int or type(i) == str:
             flatten_list.append(i)
         else:
