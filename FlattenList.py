@@ -1,17 +1,17 @@
 """
 EN
-Write a function that flattens a list. Its elements can consist of multi-layered lists (such as [[3],2]) or non-scalar
-data.For example:
-input: [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
-output: [1,'a','cat',2,3,'dog',4,5]
+Write a function that flattens a list. Its elements can consist of multi-layered lists (such as [[3], 2]) or non-scalar
+data. For example:
+input: [[1, 'a', ['cat'], 2], [[[3]], 'dog'], 4, 5]
+output: [1, 'a', 'cat', 2, 3, 'dog', 4, 5]
 """
 
 """
 TR
-Bir listeyi düzleştiren (flatten) fonksiyon yazın. Elemanları birden çok katmanlı listelerden ([[3],2] gibi) 
+Bir listeyi düzleştiren (flatten) fonksiyon yazın. Elemanları birden çok katmanlı listelerden ([[3], 2] gibi) 
 oluşabileceği gibi, non-scalar verilerden de oluşabilir. Örnek olarak:
-input: [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
-output: [1,'a','cat',2,3,'dog',4,5]
+input: [[1, 'a', ['cat'], 2], [[[3]], 'dog'], 4, 5]
+output: [1, 'a', 'cat', 2, 3, 'dog', 4, 5]
 """
 
 
@@ -38,3 +38,4 @@ print(flatten_it(l3))       # [26, 34, 98, 'python', 'hello', 'world', 'test', '
 flatten_list.clear()
 print(flatten_it(l4))       # [20, 7, 75, 'xyz', 2, 'a', 'bcd']
 flatten_list.clear()
+
