@@ -16,8 +16,12 @@ This program looks for pairs with 2 in a given array and if the inverse of the c
 - [2, 1, 1, 2, 30, 50]          -> prints "30, 50", because '30, 50' has no reversed form  
 
 ## 3) **Flatten List:** (Medium)
-Write a function that flattens a list. Its elements can consist of multi-layered lists (such as [[3],2]) or non-scalar data. 
+Write a function that flattens a list. Its elements can consist of multi-layered lists (such as [[3], 2]) or non-scalar data. 
 ### **Example**:
-- input: [[1, 'a', ['cat'], 2], [[[3]], 'dog'], 4, 5]
-- output: [1, 'a', 'cat', 2, 3, 'dog', 4, 5]
+- [[1, 'a', ['cat'], 2], [[[3]], 'dog'], 4, 5] -> [1, 'a', 'cat', 2, 3, 'dog', 4, 5]
 
+## 4) **Reverse List:** (Medium)
+Write a function that reverses the elements inside the given list. If the elements inside the list also contain the list, reverse their elements as well. 
+### **Examples**:
+- [[1, 2], [3, 4], [5, 6, 7]] -> [[7, 6, 5], [4, 3], [2, 1]]
+- [["a", ["b", "c"]], ["123", 123, [456, 789]]]   ->   [[[789, 456], 123, '123'], [['c', 'b'], 'a']]
