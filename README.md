@@ -31,3 +31,11 @@ Function that finds the total minutes in a given time interval in hours.
 ### **Examples**:
 - "9:00am-10:00am" -> 60
 - "1:00pm-11:00am" -> 1320
+
+## 6) **Knight Jumps:** (Hard)
+A function that returns the number of positions the knight can go if there are no other pieces on a standard chessboard. The current position of the horse will be given as ("x y").
+### **Examples**:
+- "(1 1)" -> 2
+- "(7 6)" -> 6
+- "(3 3)" -> 8
+
