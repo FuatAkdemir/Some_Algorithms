@@ -27,7 +27,6 @@ def ConvertToMinutes(clock):
     return total
 
 
-# keep this function call here
 print(CountingMinutes("10:30am-11:30am"))   # 60
 print(CountingMinutes("10:30am-12:30am"))   # 120
 print(CountingMinutes("10:30am-12:30pm"))   # 840
