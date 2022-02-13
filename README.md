@@ -25,3 +25,9 @@ Write a function that reverses the elements inside the given list. If the elemen
 ### **Examples**:
 - [[1, 2], [3, 4], [5, 6, 7]] -> [[7, 6, 5], [4, 3], [2, 1]]
 - [["a", ["b", "c"]], ["123", 123, [456, 789]]]   ->   [[[789, 456], 123, '123'], [['c', 'b'], 'a']]
+
+## 5) **Counting Minutes**: (Medium)
+Function that finds the total minutes in a given time interval in hours.
+### **Examples**:
+- "9:00am-10:00am" -> 60
+- "1:00pm-11:00am" -> 1320
