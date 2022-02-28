@@ -1,6 +1,6 @@
 """
 EN
-A function that returns the number of points the knight can go if there are no other pieces on a standard chessboard.
+A function that returns the number of positions the knight can go if there are no other pieces on a standard chessboard.
 The current position of the horse will be given as ("x y").
 Input: "(1 1)"
 Output: 2 -> Because the horse can go from 1, 1 to 2 different points.
