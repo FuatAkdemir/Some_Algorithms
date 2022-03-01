@@ -72,8 +72,8 @@ def LineOrdering(strArr):
     return len(all_lines)
 
 
-l1 = ["A>B","A<C","C<Z"]    # ZCAB
-l2 = ["A>B","B<R","R<G"]    # GRAB GARB AGRB
+l1 = ["A>B", "A<C", "C<Z"]    # ZCAB
+l2 = ["A>B", "B<R", "R<G"]    # GRAB GARB AGRB
 
 print(LineOrdering(l1))         # 1
 print(LineOrdering(l2))         # 3
