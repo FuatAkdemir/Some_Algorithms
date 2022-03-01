@@ -2,8 +2,7 @@
 EN
 NearestSmallerValue(arr) take the array of integers stored in arr, and for each element in the list,
 search all the previous values for the nearest element that is smaller than (or equal to) the current element and
-create new list from this number. If there is no element before a certain position that is smaller,
-input a -1.
+create new list from this number. If there is no element before a certain position that is smaller, input a -1.
 Examples:
 Input: [5, 2, 8, 3, 9, 12]
 Output: -1, -1, 2, 2, 3, 9
@@ -18,7 +17,7 @@ TR
 NearestSmallerValue(arr), arr'da depolanan tamsayı dizisini alır ve listedeki her öğe için, mevcut öğeden daha küçük 
 olan en yakın öğe için önceki tüm değerleri arar ve bu sayıdan yeni bir liste oluşturur. Belirli bir konumdan önce 
 daha küçük bir öğe yoksa, -1 girin.
-Örnek:
+Örnekler:
 Girdi: [5, 2, 8, 3, 9, 12]
 Çıktı: -1, -1, 2, 2, 3, 9
 Girdi: [5, 3, 1, 9, 7, 3, 4, 1]
