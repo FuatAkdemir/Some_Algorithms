@@ -52,3 +52,10 @@ This program compares the elements in a given array in order and prints the less
 ### **Examples**:
 - Input: [5, 2, 8, 3, 9, 12] -> Output: -1, -1, 2, 2, 3, 9
 - Input: [5, 3, 1, 9, 7, 3, 4, 1] -> Output: -1, -1, -1, 1, 1, 1, 3, 1
+
+## 9) **Line Ordering:** (Hard)
+This program prints how many different ways people can be in a queue with the rules given as a list.
+
+### **Examples**:
+- Input: ["A>B", "A<C", "C<Z"] -> Output: 1 -> ZCAB
+- Input: ["A>B", "B<R", "R<G"] -> Output: 3 -> GRAB, GARB, AGRB
