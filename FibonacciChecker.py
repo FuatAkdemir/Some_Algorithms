@@ -1,6 +1,7 @@
 """
 EN
 Program that returns "yes" if the given number is in the Fibonacci sequence, and "no" if it is not.
+Examples:
 Input: 34
 Output: yes
 Input: 54
@@ -10,6 +11,7 @@ Output: no
 """
 TR
 Verilen sayı Fibonacci serisinde yer almaktaysa "evet", yer almıyorsa "hayır" döndüren program.
+Örnekler:
 Girdi: 34
 Çıktı: yes
 Girdi: 54
