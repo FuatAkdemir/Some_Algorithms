@@ -39,3 +39,10 @@ A function that returns the number of positions the knight can go if there are n
 - "(7 6)" -> 6
 - "(3 3)" -> 8
 
+## 7) **Fibonacci Checker:** (Medium)
+Program that returns "yes" if the given number is in the Fibonacci sequence, and "no" if it is not.
+
+### **Examples**:
+- Input: 34 -> Output: yes
+- Input: 54 -> Output: no
+
