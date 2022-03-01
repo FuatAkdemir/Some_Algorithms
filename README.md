@@ -46,3 +46,9 @@ Program that returns "yes" if the given number is in the Fibonacci sequence, and
 - Input: 34 -> Output: yes
 - Input: 54 -> Output: no
 
+## 8) **Nearest Smaller Values:** (Medium)
+This program compares the elements in a given array in order and prints the lesser or equal number. If there is no element smaller than itself, it adds -1 instead.
+
+### **Examples**:
+- Input: [5, 2, 8, 3, 9, 12] -> Output: -1, -1, 2, 2, 3, 9
+- Input: [5, 3, 1, 9, 7, 3, 4, 1] -> Output: -1, -1, -1, 1, 1, 1, 3, 1
