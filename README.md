@@ -59,3 +59,12 @@ This program prints how many different ways people can be in a queue with the ru
 ### **Examples**:
 - Input: ["A>B", "A<C", "C<Z"] -> Output: 1 -> ZCAB
 - Input: ["A>B", "B<R", "R<G"] -> Output: 3 -> GRAB, GARB, AGRB
+
+## 19) **Blackjack Highest:** (Hard)
+Function that prints whether the cards in the given list are blackjack and prints the highest card.
+
+### **Examples**:
+- Input: ["four", "ace", "ten"] -> Output: below ten
+- Input: ["ace", "queen"] -> Output: blackjack ace
+- Input: ["queen", "king", "jack"] -> Output: above king
+
