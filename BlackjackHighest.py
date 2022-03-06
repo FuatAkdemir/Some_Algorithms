@@ -56,7 +56,7 @@ def BlackjackHighest(strArr):
     biggest = []
     for i in strArr:
         t += int(get_key(i))
-        biggest.append(float(get_key(i)))
+        biggest.append(get_key(i))
 
     biggest = cardsValues.get(max(biggest))
 
