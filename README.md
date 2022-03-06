@@ -68,3 +68,10 @@ Function that prints whether the cards in the given list are blackjack and print
 - Input: ["ace", "queen"] -> Output: blackjack ace
 - Input: ["queen", "king", "jack"] -> Output: above king
 
+## 11) **Sudoku Quadrant Checker:** (Hard)
+A function that finds whether the given statements on a 9x9 sudoku board are true or false. If there is a repeating number, you should print this incorrect cell on the screen.
+
+### **Examples**:
+- Input: (You can see the sudoku list in code) -> Output: 1, 3, 4
+
+
