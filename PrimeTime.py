@@ -20,14 +20,12 @@ Girdi: 110
 
 
 def PrimeTime(num):
-    isPrime = "true"
-    if num == 1:
+    if num < 2:
         return "false"
     for i in range(2, int(num**0.5)+1):
         if num % i == 0:
-            isPrime = "false"
-            break
-    return isPrime
+            return "false"
+    return "true"
 
 
 print(PrimeTime(1))         # false
@@ -35,4 +33,6 @@ print(PrimeTime(2))         # true
 print(PrimeTime(7))         # true
 print(PrimeTime(75))        # false
 print(PrimeTime(110))       # false
+print(PrimeTime(0))         # false
+print(PrimeTime(-5))        # false
 
