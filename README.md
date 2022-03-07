@@ -74,4 +74,10 @@ A function that finds whether the given statements on a 9x9 sudoku board are tru
 ### **Examples**:
 - Input: (You can see the sudoku list in code) -> Output: 1, 3, 4
 
+## 12) **Prime Time:** (Easy)
+Program that checks if the given number is prime. It prints "true" if the number is prime, "false" otherwise.
 
+### **Examples**:
+- Input: 1 -> Output: false
+- Input: 2 -> Output: true
+- Input: -3 -> Output: false
