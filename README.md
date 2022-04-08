@@ -81,3 +81,12 @@ Program that checks if the given number is prime. It prints "true" if the number
 - Input: 1 -> Output: false
 - Input: 2 -> Output: true
 - Input: -3 -> Output: false
+
+## 13) **Gas Station:** (Hard)
+A program that will calculate whether you can return to the starting point by wandering around the gas stations on a route given by Array. If the route is completing, print the smallest index, if not, print "impossible".
+
+### **Examples**:
+- Input: ["4", "1:1", "2:2", "1:2", "0:1"] -> Output: impossible
+- Input: ["5", "1:1", "2:2", "1:2", "0:1", "6:3"] -> Output: 5
+- Input: ["5", "4:1", "2:2", "1:2", "0:1", "6:3"] -> Output: 1
+
